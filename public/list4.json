@@ -1,0 +1,59 @@
+[
+    {
+        "id":1,
+        "name":"Taj Mahal",
+        "tittle":"Hinduisim",
+        "image":"public/f1.jpeg",
+        "category":"Agra"
+    },
+    {
+        "id":1,
+        "name":"Red Fort ",
+        "tittle":"Christian",
+        "image":"public/f2.jpeg",
+        "category":"Delhi"
+    },
+    {
+        "id":1,
+        "name":"India Gate",
+        "tittle":"Cancer Specilaist",
+        "image":"public/f3.jpeg",
+        "category":"Delhi"
+    },
+    {
+        "id":1,
+        "name":"Gateway of India",
+        "tittle":"Eyes Specilaist",
+        "image":"public/f4.jpeg",
+        "category":"Mumbai"
+    },
+    {
+        "id":1,
+        "name":"Hawah Mahal",
+        "tittle":"pizza ,Burger",
+        "image":"public/f5.jpeg",
+        "category":"Rajasthan"
+    },
+    {
+        "id":1,
+        "name":"Golden temple",
+        "tittle":"lorem10 vbg  vcdfgdfgd  dfg",
+        "image":"public/f6.jpeg",
+        "category":"Amritsar"
+    },
+    {
+        "id":1,
+        "name":"Char Minar",
+        "tittle":"lorem10 vbg  vcdfgdfgd  dfg",
+        "image":"public/f7.jpeg",
+        "category":"Hydrabad"
+    },
+
+    {
+        "id":1,
+        "name":"Sardar Vallab bhai patel smarak",
+        "tittle":"lorem10 vbg  vcdfgdfgd  dfg",
+        "image":"public/f8.jpeg",
+        "category":"Gujrat"
+    }
+]

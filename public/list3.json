@@ -1,0 +1,59 @@
+[
+    {
+        "id":1,
+        "name":"Street Food",
+        "tittle":"Hinduisim",
+        "image":"public/res1.jpeg",
+        "category":"free"
+    },
+    {
+        "id":1,
+        "name":"Indian Sweet ",
+        "tittle":"Christian",
+        "image":"public/res2.jpeg",
+        "category":"free"
+    },
+    {
+        "id":1,
+        "name":"chinese",
+        "tittle":"Cancer Specilaist",
+        "image":"public/res7.jpeg",
+        "category":"Private"
+    },
+    {
+        "id":1,
+        "name":"Resturant",
+        "tittle":"Eyes Specilaist",
+        "image":"public/res4.jpeg",
+        "category":"Sarkari"
+    },
+    {
+        "id":1,
+        "name":"Italain",
+        "tittle":"pizza ,Burger",
+        "image":"public/res5.jpeg",
+        "category":"Private /Sarkari"
+    },
+    {
+        "id":1,
+        "name":"Baar",
+        "tittle":"lorem10 vbg  vcdfgdfgd  dfg",
+        "image":"public/res6.jpeg",
+        "category":"private"
+    },
+    {
+        "id":1,
+        "name":"Chicken",
+        "tittle":"lorem10 vbg  vcdfgdfgd  dfg",
+        "image":"public/res8.jpeg",
+        "category":"Non Veg"
+    },
+
+    {
+        "id":1,
+        "name":"Food",
+        "tittle":"lorem10 vbg  vcdfgdfgd  dfg",
+        "image":"public/res9.jpeg",
+        "category":"Veg / Non veg"
+    }
+]

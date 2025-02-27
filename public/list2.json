@@ -1,0 +1,59 @@
+[
+    {
+        "id":1,
+        "name":"Badrinath temple",
+        "tittle":"Hinduisim",
+        "image":"public/t1.jpeg",
+        "category":"Uttrakhand"
+    },
+    {
+        "id":1,
+        "name":"Ram Mandir ",
+        "tittle":"Hinduisim",
+        "image":"public/t2.jpeg",
+        "category":"Ahyodha"
+    },
+    {
+        "id":1,
+        "name":"Mosque",
+        "tittle":"Muslim",
+        "image":"public/t3.jpeg",
+        "category":"Delhi"
+    },
+    {
+        "id":1,
+        "name":"Church",
+        "tittle":"christian",
+        "image":"public/t4.jpeg",
+        "category":"Mumbai"
+    },
+    {
+        "id":1,
+        "name":"Sun temple",
+        "tittle":"Hinduisim",
+        "image":"public/t5.jpeg",
+        "category":"Gujrat"
+    },
+    {
+        "id":1,
+        "name":"Maha kalseshwar",
+        "tittle":"lorem10 vbg  vcdfgdfgd  dfg",
+        "image":"public/t6.jpeg",
+        "category":"Ujjain"
+    },
+    {
+        "id":1,
+        "name":"Kalka ji Temple",
+        "tittle":"lorem10 vbg  vcdfgdfgd  dfg",
+        "image":"public/t7.jpeg",
+        "category":"Delhi"
+    },
+
+    {
+        "id":1,
+        "name":"Kedarnath Temple",
+        "tittle":"lorem10 vbg  vcdfgdfgd  dfg",
+        "image":"public/t8.jpeg",
+        "category":"Uttrakhand"
+    }
+]

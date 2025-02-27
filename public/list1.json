@@ -1,0 +1,57 @@
+[
+    {
+        "id":1,
+        "name":"Hospital",
+        "tittle":"All type",
+        "image":"public/h1.jpeg",
+        "category":"private"
+    },
+    {
+        "id":1,
+        "name":"Jila Hospital",
+        "tittle":"Opd",
+        "image":"public/h2.jpeg",
+        "category":"Sarkari"
+    },
+    {
+        "id":1,
+        "name":"Clinik",
+        "tittle":"physician Specilaist",
+        "image":"public/h3.jpeg",
+        "category":"Private"
+    },
+    {
+        "id":1,
+        "name":"Pet Hospital",
+        "tittle":"Dog Specilaist",
+        "image":"public/h4.jpeg",
+        "category":"Private"
+    },
+    {
+        "id":1,
+        "name":"Hospital",
+        "tittle":"Female specilist",
+        "image":"public/h5.jpeg",
+        "category":"Private/Sarkari"
+    },
+    {
+        "id":1,
+        "name":"Eye Hospital",
+        "tittle":"Eye/Ear Specialist",
+        "image":"public/h6.jpeg",
+        "category":"private"
+    },
+    {
+        "id":1,
+        "name":"Medicos",
+        "tittle":"Medicines",
+        "image":"public/h7.jpeg",
+        "category":"private"
+    },    {
+        "id":1,
+        "name":"Diagnostic",
+        "tittle":"Blood Collection",
+        "image":"public/h8.jpeg",
+        "category":"private"
+    }
+]
