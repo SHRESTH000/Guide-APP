@@ -12,7 +12,7 @@ function Login() {
 
   const onSubmit = async (data) => {
     const userInfo = {
-      email: data.email,
+      username: username.email,
       password: data.password,
     };
     await axios
@@ -53,16 +53,16 @@ function Login() {
             <h3 className="font-bold text-lg">Login</h3>
             {/* Email */}
             <div className="mt-4 space-y-2">
-              <span>Email</span>
+              <span>Username</span>
               <br />
               <input
-                type="email"
-                placeholder="Enter your email"
+                type="text"
+                placeholder="Enter your username"
                 className="w-80 px-3 py-1 border rounded-md outline-none"
-                {...register("email", { required: true })}
+                {...register("username", { required: true })}
               />
               <br />
-              {errors.email && (
+              {errors.username && (
                 <span className="text-sm text-red-500">
                   This field is required
                 </span>
