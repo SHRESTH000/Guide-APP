@@ -39,6 +39,7 @@ public class AuthenticationController {
 	public ResponseEntity<?> generateToken(@RequestBody JwtRequest jwtRequest) throws Exception{
 		
 		try {
+			System.out.println("this is username "+jwtRequest.getUsername());
 			
 			authenticate(jwtRequest.getUsername(), jwtRequest.getPassword());
 			

@@ -1,7 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
-import axios from "axios";
+import { generateToken, loginUser } from "../services/LoginService";
+import toast from "react-hot-toast";
 // import toast from "react-hot-toast";
 function Login() {
   const {
@@ -9,38 +10,61 @@ function Login() {
     handleSubmit,
     formState: { errors },
   } = useForm();
+  const[details,setDetails]=useState({
+    username:'',
+    password:''
+  });
+  const [error, setError] = useState("");
+  const [isLogin, setIsLogin] = useState(false);
+  const nav = useNavigate();
 
-  const onSubmit = async (data) => {
-    const userInfo = {
-      username: username.email,
-      password: data.password,
-    };
-    await axios
-      .post("http://localhost:4001/user/login", userInfo)
-      .then((res) => {
-        console.log(res.data);
-        if (res.data) {
-          toast.success("Loggedin Successfully");
-          document.getElementById("my_modal_3").close();
-          setTimeout(() => {
-            window.location.reload();
-            localStorage.setItem("Users", JSON.stringify(res.data.user));
-          }, 1000);
+
+  function validate(data){
+    if(data.username===" "|| data.password===" "){
+      setError("Please fill in all fields");
+      toast.error("Error Fill the field")
+      return false;
+    }else{
+      setError("");
+      return true;
+    }
+   };
+   async function handleLogin (data){
+      const userInfo = {
+        username: data.username,
+        password: data.password,
+      };
+    if(validate(userInfo)){
+      try {
+         console.log("Reached;")
+        const token=await generateToken(userInfo);
+        console.log(token);
+        if(token){
+          loginUser(token);
+          toast.success("Succesfully Login");
+          setIsLogin(true);
+          nav("/")
+          document.getElementById("my_modal_3").close()
+        }else{
+          setError("Invalid username or password");
+          toast.error("Wrong Username and Password")
         }
-      })
-      .catch((err) => {
-        if (err.response) {
-          console.log(err);
-          toast.error("Error: " + err.response.data.message);
-          setTimeout(() => {}, 2000);
+        
+      } catch (error) {
+        console.log(error);
+        if (error.status == 400) {
+          toast.error("Room already exist");
+        } else {
+          toast.error("Error in creating room");
         }
-      });
+      }
+    }
   };
   return (
     <div>
       <dialog id="my_modal_3" className="modal">
         <div className="modal-box">
-          <form onSubmit={handleSubmit(onSubmit)} method="dialog">
+          <form onSubmit={handleSubmit(handleLogin)} method="dialog">
             {/* if there is a button in form, it will close the modal */}
             <Link
               to="/"
@@ -51,7 +75,7 @@ function Login() {
             </Link>
 
             <h3 className="font-bold text-lg">Login</h3>
-            {/* Email */}
+            {/* UserName */}
             <div className="mt-4 space-y-2">
               <span>Username</span>
               <br />

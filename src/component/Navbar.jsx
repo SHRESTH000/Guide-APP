@@ -76,7 +76,7 @@ useEffect(()=>{
         {navItem}
       </ul>
     </div>
-    <a className=" text-2xl font-bold cursor-pointer">CityDairy</a>
+    <a className=" text-2xl font-bold cursor-pointer">CityDiary</a>
   </div>
   <div className='navbar-end'>
   <div className="navbar-center hidden lg:flex">
