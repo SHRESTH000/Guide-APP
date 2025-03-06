@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.guide.config.JwtUtil;
+import com.guide.dao.UserDao;
 import com.guide.model.JwtRequest;
 import com.guide.model.JwtResponse;
 import com.guide.model.User;
@@ -39,7 +40,7 @@ public class AuthenticationController {
 	public ResponseEntity<?> generateToken(@RequestBody JwtRequest jwtRequest) throws Exception{
 		
 		try {
-			System.out.println("this is username "+jwtRequest.getUsername());
+			//System.out.println("this is username "+jwtRequest.getUsername());
 			
 			authenticate(jwtRequest.getUsername(), jwtRequest.getPassword());
 			
@@ -51,8 +52,12 @@ public class AuthenticationController {
 		UserDetails userDetails=this.userDetailsServiceImp.loadUserByUsername(jwtRequest.getUsername());
 		
 		String token=this.jwtUtil.generateToken(userDetails);
+		JwtResponse response=new JwtResponse();
+		response.setToken(token);
+		response.setUser(jwtRequest.getUsername());
 		
-		 return ResponseEntity.ok(new JwtResponse(token));
+		
+		 return ResponseEntity.ok(response);
 		
 	}
 	

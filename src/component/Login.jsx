@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { generateToken, loginUser } from "../services/LoginService";
 import toast from "react-hot-toast";
+import { dologin } from "../auth";
 // import toast from "react-hot-toast";
 function Login() {
   const {
@@ -50,13 +51,17 @@ function Login() {
     if(validate(userInfo)){
       try {
          console.log("Reached;")
-        const token=await generateToken(userInfo);
-        console.log(token);
-        if(token){
-          loginUser(token);
+        const userData=await generateToken(userInfo);
+        console.log(userData);
+        if(userData){
+          // saving data to local storage
+          loginUser(userData);
+          dologin(userData,()=>{
+            console.log("Login Success");
+          });
           toast.success("Succesfully Login");
           setIsLogin(true);
-          nav("/")
+          nav('/')
           document.getElementById("my_modal_3").close()
         }else{
           setError("Invalid username or password");
