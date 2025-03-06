@@ -37,7 +37,7 @@ public class UserController {
     /**
      * Registers a new user with validation checks
      */
-    @PostMapping("/register")
+    @PostMapping("/create")
     public ResponseEntity<?> registerUser(@Valid @RequestBody User user, BindingResult result) {
         if (result.hasErrors()) {
             // Collect all validation errors and return them as a JSON response
@@ -49,6 +49,7 @@ public class UserController {
         }
 
         try {
+        	System.out.println("Reached");
             // Encrypt the password before saving
             user.setPassword(this.bCryptPasswordEncoder.encode(user.getPassword()));
             user.setProfile("default.png");

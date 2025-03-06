@@ -35,13 +35,13 @@ function Login() {
       password:'',
     });
    };
-   const handleChange=(event,field)=>{
-    let actualValue=event.target.value
-    setDetails({
-      ...details,
-      [field]:actualValue
-    })
-   }
+  //  const handleChange=(event,field)=>{
+  //   let actualValue=event.target.value
+  //   setDetails({
+  //     ...details,
+  //     [field]:actualValue
+  //   })
+  //  }
    async function handleLogin (data){
       const userInfo = {
         username: data.username,
@@ -65,10 +65,10 @@ function Login() {
         
       } catch (error) {
         console.log(error);
-        if (error.status == 400) {
-          toast.error("Room already exist");
+        if (error.status == 401) {
+          toast.error("Wrong Credential");
         } else {
-          toast.error("Error in creating room");
+          toast.error("Something went Wrong");
         }
       }
     }
@@ -95,8 +95,8 @@ function Login() {
               <input
                 type="text"
                 placeholder="Enter your username"
-                value={details.username}
-                onChange={(e)=>handleChange(e,'username')}
+              //  value={details.username}
+              //  onChange={(e)=>handleChange(e,'username')}
                 className="w-80 px-3 py-1 border rounded-md outline-none"
                 {...register("username", { required: true })}
               />
@@ -114,8 +114,8 @@ function Login() {
               <input
                 type="password"
                 placeholder="Enter your password"
-                value={details.password}
-                onChange={(e)=>handleChange(e,'password')}
+               // value={details.password}
+               // onChange={(e)=>handleChange(e,'password')}
                 className="w-80 px-3 py-1 border rounded-md outline-none"
                 {...register("password", { required: true })}
               />

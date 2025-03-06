@@ -2,7 +2,7 @@ function validation(values) {
   let error = {};
 
   const email_pattern = /^[^\s@]+@[^\s@].[^\s@]+$/;
-  const password_pattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a=zA-Z0-9]{8,}$/;
+  //const password_pattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a=zA-Z0-9]{8,}$/;
   const username_pattern = /^[a-zA-Z0-9_]{3,20}$/; // Allows alphanumeric and underscores, 3-20 characters
   const name_pattern = /^[a-zA-Z\s]{2,30}$/; // Allows letters and spaces, 2-30 characters
   const phone_pattern = /^[0-9]{10}$/;
