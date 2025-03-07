@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { generateToken, loginUser } from "../services/LoginService";
 import toast from "react-hot-toast";
 import { dologin } from "../auth";
+import { AuthContext } from "../auth/AuthContext";
 // import toast from "react-hot-toast";
 function Login() {
+  const {updateAuthStatus}=useContext(AuthContext);
   const {
     register,
     handleSubmit,
@@ -57,11 +59,13 @@ function Login() {
           // saving data to local storage
           loginUser(userData);
           dologin(userData,()=>{
-            console.log("Login Success");
+            //console.log("Login Success");
+            updateAuthStatus();
           });
           toast.success("Succesfully Login");
           setIsLogin(true);
           nav('/')
+         // window.navigator("/")
           document.getElementById("my_modal_3").close()
         }else{
           setError("Invalid username or password");

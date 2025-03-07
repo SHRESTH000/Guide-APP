@@ -1,22 +1,25 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Login from "./Login";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { doLogout, getCurrentUser, isLoggedIn } from "../auth";
+import { AuthContext } from "../auth/AuthContext";
 // imprt {Link}
 
 function Navbar() {
-  const [login, setLogin] = useState(false);
-  const [user, setUser] = useState(undefined);
+  // const [login, setLogin] = useState(false);
+  // const [user, setUser] = useState(undefined);
+  const { login, user, updateAuthStatus } = useContext(AuthContext); // Consume context
   const nav = useNavigate();
 
-  useEffect(() => {
-    setLogin(isLoggedIn());
-    setUser(getCurrentUser());
-  }, [login]);
+  // useEffect(() => {
+  //   setLogin(isLoggedIn());
+  //   setUser(getCurrentUser());
+  // }, [login]);
 
   const logout = () => {
     doLogout(() => {
-      setLogin(false);
+      //setLogin(false);
+      updateAuthStatus();
       nav("/");
     });
   };
@@ -180,10 +183,10 @@ function Navbar() {
             </label>
             {login && (
               <>
-                <navItem className="px-3 py-2">
+                <navItem className="bg-red text-red px-5 py-3 rounded-md hover:bg-slate-600 duration-300 curson-pointer dark:bg-slate-600 cursor-pointer">
                   <NavLink>{user}</NavLink>
                 </navItem>
-                <navItem >
+                <navItem className="bg-red text-red px-3 py-2 rounded-md hover:bg-slate-600 duration-300 curson-pointer dark:bg-slate-600 cursor-pointer"  >
                   <NavLink onClick={logout}>logout</NavLink>
                 </navItem>
               </>
