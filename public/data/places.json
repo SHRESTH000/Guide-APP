@@ -1,0 +1,241 @@
+[
+    {
+      "name": "Red Fort",
+      "location": "Delhi, India",
+      "description": "A historic fort and a symbol of India's independence.",
+      "history": "Built by Mughal Emperor Shah Jahan in 1648, the fort served as the main residence of the Mughal emperors for nearly 200 years."
+    },
+    {
+      "name": "Qutub Minar",
+      "location": "Delhi, India",
+      "description": "A UNESCO World Heritage Site, the tallest brick minaret in the world.",
+      "history": "Construction was initiated by Qutb-ud-din Aibak in 1192 and later completed by his successor, Iltutmish."
+    },
+    {
+      "name": "Gateway of India",
+      "location": "Mumbai, India",
+      "description": "A historic arch-monument built during the 20th century.",
+      "history": "Constructed in 1924 to commemorate the visit of King George V and Queen Mary to India in 1911."
+    },
+    {
+      "name": "Hawa Mahal",
+      "location": "Jaipur, India",
+      "description": "A palace known for its unique honeycomb structure with 953 small windows.",
+      "history": "Built in 1799 by Maharaja Sawai Pratap Singh to allow royal women to observe street festivals unseen."
+    },
+    {
+      "name": "Mysore Palace",
+      "location": "Mysore, India",
+      "description": "A magnificent palace that serves as the official residence of the Wadiyar dynasty.",
+      "history": "Rebuilt in 1912 after a fire destroyed the previous structure, it is an architectural marvel blending Hindu, Muslim, Rajput, and Gothic styles."
+    },
+    {
+      "name": "Varanasi Ghats",
+      "location": "Varanasi, India",
+      "description": "A series of steps leading to the banks of the River Ganges, significant for Hindu rituals.",
+      "history": "These ghats have been used for religious ceremonies and cremation rituals for over 3,000 years."
+    },
+    {
+      "name": "Ajanta and Ellora Caves",
+      "location": "Maharashtra, India",
+      "description": "Rock-cut caves known for their Buddhist, Hindu, and Jain sculptures and paintings.",
+      "history": "Ajanta Caves date back to the 2nd century BCE, while the Ellora Caves were built between the 6th and 10th centuries."
+    },
+    {
+      "name": "India Gate",
+      "location": "Delhi, India",
+      "description": "A war memorial dedicated to Indian soldiers who died in World War I.",
+      "history": "Completed in 1931, it commemorates over 70,000 soldiers of the British Indian Army who lost their lives."
+    },
+    {
+      "name": "Ranthambore National Park",
+      "location": "Rajasthan, India",
+      "description": "One of the largest national parks in India, famous for its tiger population.",
+      "history": "Originally a hunting ground for the Maharajas of Jaipur, it was declared a wildlife sanctuary in 1955 and a national park in 1980."
+    },
+    {
+      "name": "Golden Temple",
+      "location": "Amritsar, India",
+      "description": "The holiest shrine of Sikhism, covered in gold and known for its spiritual significance.",
+      "history": "Built in 1581 by Guru Arjan Dev, the temple has been a center of Sikhism for centuries."
+    },
+    {
+      "name": "Charminar",
+      "location": "Hyderabad, India",
+      "description": "A historic monument and mosque known for its four grand minarets.",
+      "history": "Built in 1591 by Sultan Muhammad Quli Qutb Shah to mark the end of a deadly plague in the city."
+    },
+    {
+      "name": "Sundarbans National Park",
+      "location": "West Bengal, India",
+      "description": "A UNESCO-listed mangrove forest, home to the Bengal tiger.",
+      "history": "The Sundarbans forest has been recognized for its ecological significance for centuries and was designated a national park in 1984."
+    },
+    {
+      "name": "Meenakshi Temple",
+      "location": "Madurai, India",
+      "description": "A stunning Dravidian-style temple dedicated to Goddess Meenakshi.",
+      "history": "Believed to have been originally built in the 6th century and later expanded by the Nayak rulers in the 16th century."
+    },
+    {
+      "name": "Konark Sun Temple",
+      "location": "Odisha, India",
+      "description": "A 13th-century temple dedicated to the Sun God, known for its intricate carvings.",
+      "history": "Built in the 13th century by King Narasimhadeva I of the Eastern Ganga dynasty."
+    },
+    {
+      "name": "Kaziranga National Park",
+      "location": "Assam, India",
+      "description": "A UNESCO-listed wildlife sanctuary famous for its one-horned rhinoceroses.",
+      "history": "Declared a national park in 1974, it has played a crucial role in conserving the Indian rhinoceros."
+    },
+    {
+      "name": "Brihadeeswarar Temple",
+      "location": "Tamil Nadu, India",
+      "description": "A UNESCO World Heritage Site, known for its massive temple tower.",
+      "history": "Built by the Chola King Rajaraja I in the 11th century."
+    },
+    {
+      "name": "Rishikesh",
+      "location": "Uttarakhand, India",
+      "description": "A spiritual town known as the Yoga Capital of the World.",
+      "history": "Famous for its ancient ashrams and association with Hindu sages for thousands of years."
+    },
+    {
+      "name": "Sanchi Stupa",
+      "location": "Madhya Pradesh, India",
+      "description": "A Buddhist monument built by Emperor Ashoka in the 3rd century BCE.",
+      "history": "One of the oldest stone structures in India, built to house relics of the Buddha."
+    },{
+      "name": "Taj Mahal",
+      "location": "Agra, Uttar Pradesh",
+      "description": "An ivory-white marble mausoleum commissioned by Mughal Emperor Shah Jahan.",
+      "history": "Built between 1632 and 1653 in memory of Shah Jahan's wife, Mumtaz Mahal.",
+      "image":"public/f1.jpeg"
+    },
+    {
+      "name": "Varanasi Ghats",
+      "location": "Varanasi, Uttar Pradesh",
+      "description": "A series of steps leading to the River Ganges, significant for Hindu rituals.",
+      "history": "Used for religious ceremonies and cremation rituals for over 3,000 years.",
+      "image": "https://example.com/varanasi-ghats.jpg"
+    },
+    {
+      "name": "Fatehpur Sikri",
+      "location": "Agra, Uttar Pradesh",
+      "description": "A UNESCO World Heritage Site and former Mughal capital.",
+      "history": "Built by Emperor Akbar in the 16th century as his capital.",
+      "image": "https://example.com/fatehpur-sikri.jpg"
+    },
+    {
+      "name": "Allahabad Triveni Sangam",
+      "location": "Prayagraj, Uttar Pradesh",
+      "description": "The confluence of the Ganges, Yamuna, and mythical Saraswati rivers.",
+      "history": "A sacred pilgrimage site for Hindus, especially during the Kumbh Mela.",
+      "image": "https://example.com/allahabad-sangam.jpg"
+    },
+    {
+      "name": "Ayodhya Ram Mandir",
+      "location": "Ayodhya, Uttar Pradesh",
+      "description": "A major Hindu temple dedicated to Lord Rama.",
+      "history": "Believed to be the birthplace of Lord Rama, with historical significance dating back thousands of years.",
+      "image": "https://example.com/ayodhya-ram-mandir.jpg"
+    },
+    {
+      "name": "Sarnath",
+      "location": "Varanasi, Uttar Pradesh",
+      "description": "An important Buddhist site where Lord Buddha delivered his first sermon.",
+      "history": "Home to the Dhamek Stupa, built by Emperor Ashoka in the 3rd century BCE.",
+      "image": "https://example.com/sarnath.jpg"
+    },
+    {
+      "name": "Jhansi Fort",
+      "location": "Jhansi, Uttar Pradesh",
+      "description": "A 17th-century fort known for its association with Rani Lakshmibai.",
+      "history": "Played a crucial role in the Revolt of 1857.",
+      "image": "https://example.com/jhansi-fort.jpg"
+    },
+    {
+      "name": "Dudhwa National Park",
+      "location": "Lakhimpur Kheri, Uttar Pradesh",
+      "description": "A national park rich in biodiversity, home to tigers and rhinos.",
+      "history": "Declared a national park in 1977 to protect endangered species.",
+      "image": "https://example.com/dudhwa-national-park.jpg"
+    },
+    {
+      "name": "Mathura Krishna Janmabhoomi",
+      "location": "Mathura, Uttar Pradesh",
+      "description": "A sacred Hindu site believed to be the birthplace of Lord Krishna.",
+      "history": "An important religious site with temples and historical significance.",
+      "image": "https://example.com/mathura-janmabhoomi.jpg"
+    },        {
+      "name": "Kedarnath Temple",
+      "location": "Kedarnath, Uttarakhand",
+      "description": "A sacred Hindu temple dedicated to Lord Shiva, part of the Char Dham pilgrimage.",
+      "history": "Believed to be built by the Pandavas and revived by Adi Shankaracharya in the 8th century.",
+      "image": "https://example.com/kedarnath.jpg"
+    },
+    {
+      "name": "Badrinath Temple",
+      "location": "Badrinath, Uttarakhand",
+      "description": "A revered Hindu temple dedicated to Lord Vishnu, part of the Char Dham yatra.",
+      "history": "Believed to have been established by Adi Shankaracharya in the 8th century.",
+      "image": "https://example.com/badrinath.jpg"
+    },
+    {
+      "name": "Har Ki Pauri",
+      "location": "Haridwar, Uttarakhand",
+      "description": "A famous ghat on the banks of the Ganges River, known for Ganga Aarti.",
+      "history": "A sacred site believed to be visited by Lord Vishnu and Lord Shiva.",
+      "image": "https://example.com/har-ki-pauri.jpg"
+    },
+    {
+      "name": "Nainital Lake",
+      "location": "Nainital, Uttarakhand",
+      "description": "A picturesque natural freshwater lake, a popular tourist attraction.",
+      "history": "Believed to be one of the 64 Shakti Peethas, where Goddess Sati's eyes fell.",
+      "image": "https://example.com/nainital-lake.jpg"
+    },
+    {
+      "name": "Jim Corbett National Park",
+      "location": "Nainital district, Uttarakhand",
+      "description": "India’s oldest national park, known for its Bengal tiger population.",
+      "history": "Established in 1936 as Hailey National Park, later renamed after Jim Corbett.",
+      "image": "https://example.com/corbett-park.jpg"
+    },
+    {
+      "name": "Mussoorie",
+      "location": "Mussoorie, Uttarakhand",
+      "description": "A scenic hill station known as the ‘Queen of Hills’.",
+      "history": "Developed as a hill station by the British in the 19th century.",
+      "image": "https://example.com/mussoorie.jpg"
+    },
+    {
+      "name": "Valley of Flowers National Park",
+      "location": "Chamoli district, Uttarakhand",
+      "description": "A UNESCO World Heritage Site, famous for its alpine flowers and biodiversity.",
+      "history": "Discovered in 1931 by British mountaineer Frank Smythe.",
+      "image": "https://example.com/valley-of-flowers.jpg"
+    },
+    {
+      "name": "Rishikesh",
+      "location": "Rishikesh, Uttarakhand",
+      "description": "A major center for yoga and spirituality, known as the ‘Yoga Capital of the World’.",
+      "history": "Mentioned in ancient scriptures as a place of meditation and enlightenment.",
+      "image": "https://example.com/rishikesh.jpg"
+    },
+    {
+      "name": "Auli",
+      "location": "Auli, Uttarakhand",
+      "description": "A famous ski resort known for its snow-covered slopes.",
+      "history": "Developed as a winter sports destination in the late 20th century.",
+      "image": "https://example.com/auli.jpg"
+    },
+    {
+      "name": "Panch Kedar",
+      "location": "Various locations, Uttarakhand",
+      "description": "A group of five sacred Shiva temples situated in the Garhwal region.",
+      "history": "Believed to be established by the Pandavas from the Mahabharata.",
+      "image": "https://example.com/panch-kedar.jpg"
+    }
+  ]

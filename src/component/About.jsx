@@ -14,6 +14,8 @@ const CityDirectoryAbout = () => {
   return (
     <>
     <Navbar/>
+
+
     
    <section className="py-10 px-4 bg-gray-50 text-center mt-20">
       <div className="mb-12">
@@ -23,6 +25,28 @@ const CityDirectoryAbout = () => {
         </p>
       </div>
       <p className='mt-8 md:ml-12 text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae saepe alias consequatur ullam corrupti, labore ex. Odio voluptates ex quas tenetur iusto officia, deleniti sunt necessitatibus esse maxime eius cum alias, ad aut. Molestiae necessitatibus aliquid labore! Corrupti, impedit officia sapiente, expedita, rem nulla accusamus nisi voluptatem ipsum molestiae cum.</p>
+
+
+      <section className="py-16 bg-white text-center">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold text-gray-800">About City Diary</h2>
+            <p className="mt-4 text-gray-700 text-lg">
+              City Diary is your go-to platform for exploring city details, including hotels, railways, maps, and hospitals. 
+              Our mission is to provide accurate and easy-to-access information to make your city experience smooth and hassle-free.
+            </p>
+            <p className="mt-4 text-gray-700 text-lg">
+              Whether you're a traveler looking for the best accommodations or a resident seeking essential city services, 
+              City Diary is here to guide you. We strive to offer updated information on locations, reviews, and facilities 
+              to help you make informed decisions.
+            </p>
+            <p className="mt-4 text-gray-700 text-lg">
+              Our mission is to create a seamless urban experience by offering real-time and reliable data about city life. 
+              We aim to bridge the gap between citizens and essential services, making navigation and decision-making easier. 
+              Through our platform, we aspire to enhance connectivity and accessibility, ensuring that users can find what 
+              they need quickly and effortlessly.
+            </p>
+          </div>
+        </section>
       <Link to="/"><button className='bg-pink-500 text-white- px-4 py-2 m-10 rounded-md hover:bg-pink-700 duration-300'>Back</button></Link>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {/* Hotels Section */}
@@ -95,6 +119,27 @@ const CityDirectoryAbout = () => {
         </div>
       </div>
     </section>
+
+    <section className="py-16 bg-white text-center">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold text-gray-800">About City Diary</h2>
+            <p className="mt-4 text-gray-700 text-lg">
+              City Diary is your go-to platform for exploring city details, including hotels, railways, maps, and hospitals. 
+              Our mission is to provide accurate and easy-to-access information to make your city experience smooth and hassle-free.
+            </p>
+            <p className="mt-4 text-gray-700 text-lg">
+              Whether you're a traveler looking for the best accommodations or a resident seeking essential city services, 
+              City Diary is here to guide you. We strive to offer updated information on locations, reviews, and facilities 
+              to help you make informed decisions.
+            </p>
+            <p className="mt-4 text-gray-700 text-lg">
+              Our mission is to create a seamless urban experience by offering real-time and reliable data about city life. 
+              We aim to bridge the gap between citizens and essential services, making navigation and decision-making easier. 
+              Through our platform, we aspire to enhance connectivity and accessibility, ensuring that users can find what 
+              they need quickly and effortlessly.
+            </p>
+          </div>
+        </section>
 
     <Footer/>
     </>
