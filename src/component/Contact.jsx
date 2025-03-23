@@ -49,7 +49,35 @@ const HeroSection = () => {
 
       {/* Container */}
       <div className="min-h-screen font-sans container mx-auto py-12">
+ <section className="py-16 bg-gray-100">
+          <div className="max-w-5xl mx-auto text-center">
+          <center><h1 className="text-4xl md:text-5xl font-bold text-gray-800">Contact & Support</h1></center>
+            <h2 className="text-4xl font-bold text-gray-800">Get in Touch</h2>
+            <p className="mt-4 text-gray-700 text-lg">
+              Find information about hotels, railways, maps, and hospitals.
+            </p>
+            <div className=" text-center">
+            
+          <h1></h1>
+          
+          <p>Thank you for your interest in <strong>City Diary</strong>! We are here to assist you with any questions, feedback, or concerns related to our platform. Our team is dedicated to ensuring you have the best experience possible, and we are happy to provide the support you need as you explore and use the app.</p>
 
+        <h2>Get in Touch</h2>
+        <p>You can reach us using the following methods:</p>
+
+
+       
+            <strong>Email:</strong> <a href="mailto:support@citydiary.com">support@citydiary.com</a><br></br>
+    <strong>Phone:</strong> +1 (123) 456-7890<br></br>
+            <strong>Support Form:</strong> <a href="#">Link to Contact Form</a><br></br>
+            <strong>Business Hours:</strong> Monday to Friday, 9:00 AM - 6:00 PM (Local Time)<br></br>
+      
+
+        <p>If you have any issues navigating the app or need help with any of the features, don’t hesitate to reach out. Whether it setting up your account, troubleshooting, or understanding how to use specific features, we’re here to guide you every step of the way. Our customer support team is just a message or phone call away and will provide the assistance you need to get the most out of <strong>City Diary</strong>.</p>
+            </div>
+            
+          </div>
+        </section>
         {/* Contact Information Section */}
         <section className="py-16 bg-gray-100">
           <div className="max-w-5xl mx-auto text-center">

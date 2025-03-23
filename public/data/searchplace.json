@@ -2,50 +2,63 @@
     {
       "id":1,
         "name": "Hospital",
-  "location": "Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat,Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh,Mumbai,Manipur,Meghalaya,Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Delhi,Tamil Nadu,Telangana, Tripura, Uttar Pradesh Uttarakhand, West Bengal",
+  "location": "Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat,Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh,Mumbai,Manipur,Meghalaya,Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Delhi,Mumbai,Tamil Nadu,Telangana, Tripura, Uttar Pradesh Uttarakhand, West Bengal",
   "image":"https://media.istockphoto.com/id/1440399157/photo/international-airport-terminal-asian-beautiful-woman-with-luggage-and-walking-in-airport.jpg?b=1&s=612x612&w=0&k=20&c=BYybcoBSBFBMq3JgtR54mDfSlHXXsyP2iG2mkCtYaWs=",
-  "link":"https://www.youtube.com/",
+  "link":"/hospital",
+
+  "description": "A historic fort and a symbol of India's independence.",
+  "history": "Built by Mughal Emperor Shah Jahan in 1648, the fort served as the main residence of the Mughal emperors for nearly 200 years."
+      },
+      {
+        "name": "Mall",
+  "location": "Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat,Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh,Mumbai,Manipur,Meghalaya,Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Delhi,Mumbai,Tamil Nadu,Telangana, Tripura, Uttar Pradesh Uttarakhand, West Bengal",
+  "image":"https://tse1.mm.bing.net/th?id=OIP.7XDLiPae1czGOEOdTb8_WwHaEE&pid=Api&P=0&h=180",
+  "link":"/mall",
+
+  "description": "A historic fort and a symbol of India's independence.",
+  "history": "Built by Mughal Emperor Shah Jahan in 1648, the fort served as the main residence of the Mughal emperors for nearly 200 years."
+      },
+      {
+        "name": "Famous Place",
+  "location": "Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat,Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh,Mumbai,Manipur,Meghalaya,Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Delhi,Mumbai,Tamil Nadu,Telangana, Tripura, Uttar Pradesh Uttarakhand, West Bengal",
+  "image":"public/t1.jpeg",
+  "link":"/famous",
 
   "description": "A historic fort and a symbol of India's independence.",
   "history": "Built by Mughal Emperor Shah Jahan in 1648, the fort served as the main residence of the Mughal emperors for nearly 200 years."
       },
       {
         "name": "Temple",
-  "location": "Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat,Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh,Mumbai,Manipur,Meghalaya,Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Delhi,Tamil Nadu,Telangana, Tripura, Uttar Pradesh Uttarakhand, West Bengal",
-  "image":"https://tse1.mm.bing.net/th?id=OIP.7XDLiPae1czGOEOdTb8_WwHaEE&pid=Api&P=0&h=180",
-
-  "description": "A historic fort and a symbol of India's independence.",
-  "history": "Built by Mughal Emperor Shah Jahan in 1648, the fort served as the main residence of the Mughal emperors for nearly 200 years."
-      },
-      {
-        "name": "School",
-  "location": "Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat,Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh,Mumbai,Manipur,Meghalaya,Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Delhi,Tamil Nadu,Telangana, Tripura, Uttar Pradesh Uttarakhand, West Bengal",
+  "location": "Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat,Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh,Mumbai,Manipur,Meghalaya,Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Delhi,Mumbai,Tamil Nadu,Telangana, Tripura, Uttar Pradesh Uttarakhand, West Bengal",
   "image":"https://tse4.mm.bing.net/th?id=OIP.zLE4J6rTIF16v9htOEW5RwHaE8&pid=Api&P=0&h=180",
   "description": "A historic fort and a symbol of India's independence.",
+  "link":"/temple",
+ 
+  "history": "Built by Mughal Emperor Shah Jahan in 1648, the fort served as the main residence of the Mughal emperors for nearly 200 years."
+      },
+     
+      {
+        "name": "Railway Station",
+  "location": "Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat,Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh,Mumbai,Manipur,Meghalaya,Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Delhi,Mumbai,Tamil Nadu,Telangana, Tripura, Uttar Pradesh Uttarakhand, West Bengal",
+  "image":"https://tse3.mm.bing.net/th?id=OIP.iY_SqVBF0YExvrZ_yQzzGQHaE8&pid=Api&P=0&h=180",
+  "description": "A historic fort and a symbol of India's independence.",
+  "link":"/railway",
   "history": "Built by Mughal Emperor Shah Jahan in 1648, the fort served as the main residence of the Mughal emperors for nearly 200 years."
       },
       {
-        "name": "Airport",
-  "location": "Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat,Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh,Mumbai,Manipur,Meghalaya,Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Delhi,Tamil Nadu,Telangana, Tripura, Uttar Pradesh Uttarakhand, West Bengal",
-  "image":"https://tse4.mm.bing.net/th?id=OIP.DRvJ0XGFhYHFmhmeMGEJ_QHaE7&pid=Api&P=0&h=180",
+        "name": "Resturant",
+  "location": "Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat,Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh,Mumbai,Manipur,Meghalaya,Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Delhi,Mumbai,Tamil Nadu,Telangana, Tripura, Uttar Pradesh Uttarakhand, West Bengal",
+  "image":"https://tse4.mm.bing.net/th?id=OIP.IQQ9pRtKjA3N_Y7opZrj0AHaEK&pid=Api&P=0&h=180",
   "description": "A historic fort and a symbol of India's independence.",
-  "history": "Built by Mughal Emperor Shah Jahan in 1648, the fort served as the main residence of the Mughal emperors for nearly 200 years.",
-
-  "link":"https://tse3.mm.bing.net/th?id=OIP.iY_SqVBF0YExvrZ_yQzzGQHaE8&pid=Api&P=0&h=180"
-    
-},
-      {
-        "name": "Railway Station",
-  "location": "Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat,Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh,Mumbai,Manipur,Meghalaya,Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Delhi,Tamil Nadu,Telangana, Tripura, Uttar Pradesh Uttarakhand, West Bengal",
-  "image":"https://tse3.mm.bing.net/th?id=OIP.iY_SqVBF0YExvrZ_yQzzGQHaE8&pid=Api&P=0&h=180",
-  "description": "A historic fort and a symbol of India's independence.",
+  "link":"/resturant",
   "history": "Built by Mughal Emperor Shah Jahan in 1648, the fort served as the main residence of the Mughal emperors for nearly 200 years."
       },
       {
         "name": "College",
-  "location": "Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat,Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh,Mumbai,Manipur,Meghalaya,Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Delhi,Tamil Nadu,Telangana, Tripura, Uttar Pradesh Uttarakhand, West Bengal",
+  "location": "Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat,Haryana, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh,Mumbai,Manipur,Meghalaya,Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Delhi,Mumbai,Tamil Nadu,Telangana, Tripura, Uttar Pradesh Uttarakhand, West Bengal",
   "image":"https://tse4.mm.bing.net/th?id=OIP.IQQ9pRtKjA3N_Y7opZrj0AHaEK&pid=Api&P=0&h=180",
   "description": "A historic fort and a symbol of India's independence.",
+  
   "history": "Built by Mughal Emperor Shah Jahan in 1648, the fort served as the main residence of the Mughal emperors for nearly 200 years."
       }
 ]

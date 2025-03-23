@@ -46,7 +46,7 @@ function SignUp() {
     } catch (error) {
       console.log(error);
       if (error.status == 400) {
-        toast.error("User exist with this UserName");
+        toast.error(error.request.response);
       } else {
         toast.error("Somethings went Wrong");
       }

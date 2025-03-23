@@ -11,9 +11,9 @@ export const generateToken =async(data)=>{
     return response.data;
 
 }
-export const  loginUser=(token)=>{
+export const  loginUser=(userData)=>{
 
-    localStorage.setItem("token",token);
+    localStorage.setItem("token",userData.token);
 }
 export const getToken=()=>{
     return localStorage.getItem("token");

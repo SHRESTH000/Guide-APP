@@ -4,41 +4,58 @@
         "name":"travel",
         "tittle":"Transport",
         "image":"https://media.istockphoto.com/id/1440399157/photo/international-airport-terminal-asian-beautiful-woman-with-luggage-and-walking-in-airport.jpg?b=1&s=612x612&w=0&k=20&c=BYybcoBSBFBMq3JgtR54mDfSlHXXsyP2iG2mkCtYaWs=",
-        "category":"free"
+        "category":"free",
+        "des":"lorem1 dsdfsd fdfdsf vdfds",
+        "link":"/famous"
     },
     {
         "id":1,
         "name":"Hotel",
         "tittle":"Resort",
+        "des":"lorem1 dsdfsd fdfdsf vdfds",
         "image":"https://media.istockphoto.com/id/457982209/photo/towels-on-bed-in-bedroom.jpg?b=1&s=612x612&w=0&k=20&c=2xg_7tJRLYFDp9qGJNI5ByqaWgQTvaeox9LidqUGRws=",
-        "category":"free"
+        "category":"free",
+        "link":"/hotel"
     },
     {
         "id":1,
         "name":"Temple",
         "tittle":"Hinduism",
+        "des":"lorem1 dsdfsd fdfdsf vdfds",
         "image":"https://media.istockphoto.com/id/579221042/photo/fantastic-art-design-of-monolithic-famous-shore-temple.jpg?b=1&s=612x612&w=0&k=20&c=lBp7Ylq8-NFC9_kYi5Rpd23BDYM3XQCuzBG46R7MTC0=",
-        "category":"free"
+        "category":"free",
+         "link":"/temple"
     },
     {
         "id":1,
         "name":"College",
         "tittle":"Engieering",
         "image":"https://img.freepik.com/free-photo/free-time-students-bachelor-s-campus-life-rhythm-five-friendly-students-are-walking_8353-6408.jpg?uid=R157264809&ga=GA1.1.1678089661.1722277666&semt=ais_hybrid",
-        "category":"free"
+        "category":"free",
+                "link":"/college"
+    },
+    {
+        "id":1,
+        "name":"Famous Place",
+        "tittle":"Famous Place",
+        "image":"public/t1.jpeg",
+        "category":"visting",
+                "link":"/famous"
     },
     {
         "id":1,
         "name":"Mall",
         "tittle":"Shopping",
         "image":"https://media.istockphoto.com/id/956571254/photo/family-shopping-happy-people-in-mall.jpg?b=1&s=612x612&w=0&k=20&c=l7URLZYA1FixaNmVoHpO_qOTk_Tz-qFOca4HtCvh-xg=",
-        "category":"free"
+        "category":"free",
+                "link":"/mall"
     },
     {
         "id":1,
-        "name":"travel",
+        "name":"Hospital",
         "tittle":"lorem10 vbg  vcdfgdfgd  dfg",
         "image":"https://media.istockphoto.com/id/457982209/photo/towels-on-bed-in-bedroom.jpg?b=1&s=612x612&w=0&k=20&c=2xg_7tJRLYFDp9qGJNI5ByqaWgQTvaeox9LidqUGRws=",
-        "category":"free"
+        "category":"free",
+                "link":"/hospital"
     }
 ]

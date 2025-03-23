@@ -10,6 +10,53 @@ import Footer from './Footer';
 import Navbar from './Navbar';
 // import About from './About';
 
+
+const infoData = [
+  {
+    id: 1,
+    title: "Deepak Mittal",
+    description: "A Frontend Web. Developer.",
+    image: "public/image.png",
+  },
+  {
+    id: 2,
+    title: "Puneet Kumar",
+    description: "A Frontend Web. Developer.",
+    image: "public/image.png",
+    link:{
+      facebook:<a href="">t</a>,
+
+    }
+  },
+  {
+    id: 3,
+    title: "Shresth",
+    description: "A Backend Web Developer.",
+    image: "public/image.png",
+  },
+  {
+    id: 4,
+    title: "Deepak YAdav",
+    description: "Works as software Testing.",
+    image: "public/image.png",
+  },
+  
+];
+const infoData1 = [
+
+ 
+  {
+    id: 5,
+    title: "Kanika Verma",
+    description: "Works as software Testing.",
+    image: "public/image.png",
+    link:{
+      facebook:<a href="">Facebook</a>,
+    }
+  },
+];
+
+
 const CityDirectoryAbout = () => {
   return (
     <>
@@ -120,26 +167,40 @@ const CityDirectoryAbout = () => {
       </div>
     </section>
 
-    <section className="py-16 bg-white text-center">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-gray-800">About City Diary</h2>
-            <p className="mt-4 text-gray-700 text-lg">
-              City Diary is your go-to platform for exploring city details, including hotels, railways, maps, and hospitals. 
-              Our mission is to provide accurate and easy-to-access information to make your city experience smooth and hassle-free.
-            </p>
-            <p className="mt-4 text-gray-700 text-lg">
-              Whether you're a traveler looking for the best accommodations or a resident seeking essential city services, 
-              City Diary is here to guide you. We strive to offer updated information on locations, reviews, and facilities 
-              to help you make informed decisions.
-            </p>
-            <p className="mt-4 text-gray-700 text-lg">
-              Our mission is to create a seamless urban experience by offering real-time and reliable data about city life. 
-              We aim to bridge the gap between citizens and essential services, making navigation and decision-making easier. 
-              Through our platform, we aspire to enhance connectivity and accessibility, ensuring that users can find what 
-              they need quickly and effortlessly.
-            </p>
+    <sect className="py-16 bg-white text-center">
+        
+
+          <center><h1 className="text-4xl md:text-5xl font-bold text-gray-800 mt-5">Our Team</h1></center>
+      <hr />
+      <div className='container_contact1 '>
+      {/* Information Map Section */}
+      <div className="mt-12 ml-10 mr-10 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-2 gap-8">
+        {infoData.map((item) => (
+          <div
+            key={item.id}
+            className="flex flex-col items-center text-center bg-white p-5 rounded-lg shadow-lg"
+          >
+            <img src={item.image} alt={item.title} className="w-90 h-90 mb-2" />
+            <h3 className="text-xl font-semibold text-gray-800">{item.title}</h3>
+            <p className="text-gray-600 mt-2">{item.description}</p>
+            {/* <p className="text-gray-600 mt-2">{item.link.facebook}</p> */}
           </div>
-        </section>
+        ))}
+      </div>
+      </div>
+      <div className=" align-center mt-12  ml-10 mr-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-8 ">
+        {infoData1.map((item) => (
+          <div
+            key={item.id}
+            className="flex flex-col items-center text-center bg-white p-5 rounded-lg shadow-lg dark:bg-slate-500"
+          >
+            <img src={item.image} alt={item.title} className="w-30 h-30 mb-2" />
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-white dark:bg-slate-500">{item.title}</h3>
+            <p className="text-gray-600 mt-2">{item.description}</p>
+          </div>
+        ))}
+        </div>
+        </sect>
 
     <Footer/>
     </>

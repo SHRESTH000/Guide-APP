@@ -4,7 +4,8 @@
         "name":"Taj Mahal",
         "tittle":"Hinduisim",
         "image":"public/f1.jpeg",
-        "category":"Agra"
+        "category":"Agra",
+        "link":"https://www.doctorsfinder.in/articles/best-private-hospitals-in-india/"
     },
     {
         "id":1,

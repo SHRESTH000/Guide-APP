@@ -15,6 +15,7 @@ export const dologin=(data,next)=>{
 // do logout
 export const doLogout=(next)=>{
     localStorage.removeItem("data");
+    localStorage.removeItem("token");
     next()
 };
 
@@ -22,6 +23,13 @@ export const doLogout=(next)=>{
 export const getCurrentUser=()=>{
     if(isLoggedIn()){
         return JSON.parse(localStorage.getItem("data")).user;
+    }else{
+        return undefined;
+    }
+}
+export const getToken1=()=>{
+    if(isLoggedIn()){
+        return JSON.parse(localStorage.getItem("data")).token;
     }else{
         return undefined;
     }

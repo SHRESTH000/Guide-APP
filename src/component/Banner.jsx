@@ -5,15 +5,15 @@ function Banner() {
   return (
     <>
       {/* Added navbar gap */}
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 flex flex-col-reverse md:flex-row items-center mt-28">
+      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 flex flex-col-reverse md:flex-row items-center mt-20 md:mt-28">
         
         {/* Left Section - Text */}
         <div className="w-full md:w-1/2 text-center md:text-left space-y-6 mt-10 md:mt-0">
-          <h1 className="text-3xl md:text-4xl font-bold leading-snug">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-snug">
             Hello! Welcome here to know{" "}
             <span className="text-pink-500">About your Journey!!!</span>
           </h1>
-          <p className="text-lg text-gray-600 leading-relaxed">
+          <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ad
             quaerat incidunt sequi odio est sit neque quod ex! Voluptatem
             tenetur doloribus quis placeat et? Officiis rerum repudiandae
@@ -22,8 +22,8 @@ function Banner() {
           </p>
 
           {/* Input Field and Button */}
-          <div className="flex flex-col md:flex-row items-center gap-3">
-            <label className="input input-bordered flex items-center gap-2 w-full md:w-2/3">
+          <div className="flex flex-col sm:flex-row items-center gap-3">
+            <label className="input input-bordered flex items-center gap-2 w-full sm:w-2/3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
@@ -41,7 +41,7 @@ function Banner() {
             </label>
 
             {/* Button */}
-            <button className="btn btn-secondary w-full md:w-auto">
+            <button className="btn btn-secondary w-full sm:w-auto">
               Subscribe
             </button>
           </div>
@@ -51,7 +51,7 @@ function Banner() {
         <div className="w-full md:w-1/2 flex justify-center md:justify-end">
           <img
             src={img11}
-            className="w-full md:w-[450px] h-auto object-cover rounded-lg shadow-lg"
+            className="w-[90%] sm:w-[70%] md:w-[450px] h-auto object-cover rounded-lg shadow-lg"
             alt="Journey"
           />
         </div>
