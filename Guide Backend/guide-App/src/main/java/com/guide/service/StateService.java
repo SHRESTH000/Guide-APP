@@ -17,6 +17,10 @@ public interface StateService {
 	
 	public Set<State> getState();
 	
+	//get state by name
+	
+	public State getStateByName(String name);
+	
 	//get state by Id
 	
 	public State getStateById(long id);
