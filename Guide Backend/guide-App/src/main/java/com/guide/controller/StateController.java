@@ -7,8 +7,10 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.method.P;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -25,6 +27,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/state")
+@CrossOrigin("*")
 public class StateController {
 
 	@Autowired
@@ -41,7 +44,7 @@ public class StateController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errors);
         }
 		try {
-			
+			state.setName(state.getName().toUpperCase());
 			State state2=this.stateService.createState(state);
 			if(state2 !=null) {
 			return ResponseEntity.ok().body(state2);
@@ -71,14 +74,32 @@ public class StateController {
 		return null;
 	}
 	
+	@GetMapping("/name/{Statename}")
+	public ResponseEntity<?> getStateByName(@PathVariable("Statename") String Statename){
+		try {
+			State state=stateService.getStateByName(Statename.toUpperCase());
+			if(state==null) {
+				ResponseEntity.internalServerError().body("No state with this name");
+			}
+			//System.out.println(state.getName());
+			return ResponseEntity.ok().body(state);
+		} catch (Exception e) {
+			
+		}
+		
+		return null;
+	}	
+	
 	@GetMapping("/{stateId}")
 	public ResponseEntity<?> getStateById(@PathVariable("stateId") long stateId){
 		
 		try {
 			 State state=this.stateService.getStateById(stateId);
+			 
 			 if(state==null) {
 				 return ResponseEntity.internalServerError().body("No State present on this ID");
 			 }
+			 
 			 return ResponseEntity.ok().body(state);
 		} catch (Exception e) {
 			e.printStackTrace();

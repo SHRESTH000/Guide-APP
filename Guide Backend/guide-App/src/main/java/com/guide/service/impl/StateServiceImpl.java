@@ -106,4 +106,17 @@ public class StateServiceImpl implements StateService {
 		
 	}
 
+	@Override
+	public State getStateByName(String name) {
+		try {
+			State state=stateDao.findByname(name);
+			
+			return state;
+		} catch (Exception e) {
+			e.printStackTrace();
+			
+		}
+		return null;
+	}
+
 }
