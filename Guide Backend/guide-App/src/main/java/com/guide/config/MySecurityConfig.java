@@ -261,7 +261,7 @@ public class MySecurityConfig  {
                 .csrf(csrf -> csrf.disable())
                 .cors(cors->cors.disable()) 
                 .authorizeHttpRequests(auth->
-                	auth.requestMatchers("/generate-token", "/user/create").permitAll()
+                	auth.requestMatchers("/generate-token", "/user/create","/auth/verify-email").permitAll()
                 	.requestMatchers(HttpMethod.OPTIONS).permitAll()
                 	.anyRequest().authenticated()
                 )
